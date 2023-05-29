@@ -1,0 +1,42 @@
+/* Mobile-first styles */
+.container {
+   width: 100%;
+   max-width: 600px;
+   margin: 12px auto;
+   background: rgb(255, 72, 0);
+   box-shadow:4px 4px 4px 1px;
+
+ }
+ .container > a {
+   color:white;
+   text-decoration: none;
+   font-size:16px;
+  
+ }
+ .element {
+   width: 100%;
+   padding: 10px;
+   box-sizing: border-box;
+ }
+ 
+ /* Tablet styles */
+ @media (min-width: 768px) {
+   .container {
+     max-width: 800px;
+   }
+ }
+ 
+ /* Desktop styles */
+ @media (min-width: 1024px) {
+   .container {
+     max-width: 1200px;
+   }
+ }
+ 
+ /* Larger desktop styles */
+ @media (min-width: 1440px) {
+   .container {
+     max-width: 1400px;
+   }
+ }
+ 
